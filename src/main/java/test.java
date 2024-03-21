@@ -31,6 +31,7 @@ public class test extends HttpServlet {
 		// TODO Auto-generated method stub
 		System.out.println("tri ngu");
 		request.getRequestDispatcher("/index.jsp").forward(request, response);
+		System.out.println("Dung Dep trai");
 	}
 
 	/**
