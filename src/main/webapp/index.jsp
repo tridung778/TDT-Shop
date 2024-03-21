@@ -84,8 +84,8 @@
 										<div class="col-sm-7">
 											<div class="single-welcome-hero">
 												<div class="welcome-hero-txt">
-													<h4>great design collection</h4>
-													<h2>cloth covered accent chair</h2>
+													<h4>Bộ sưu tập thiết kế tuyệt vời</h4>
+													<h2>Ghế bọc vải</h2>
 													<p>
 														Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiuiana smod tempor  ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip. 
 													</p>
@@ -127,8 +127,8 @@
 										<div class="col-sm-7">
 											<div class="single-welcome-hero">
 												<div class="welcome-hero-txt">
-													<h4>great design collection</h4>
-													<h2>mapple wood accent chair</h2>
+													<h4>Bộ sưu tập kế tuyệt vời</h4>
+													<h2>Điểm nhấn bằng gỗ phongchair</h2>
 													<p>
 														Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiuiana smod tempor  ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip. 
 													</p>
@@ -170,8 +170,8 @@
 										<div class="col-sm-7">
 											<div class="single-welcome-hero">
 												<div class="welcome-hero-txt">
-													<h4>great design collection</h4>
-													<h2>valvet accent arm chair</h2>
+													<h4>Bộ Thiết Kế Tuyệt Vời</h4>
+													<h2>Ghế bành Valvet</h2>
 													<p>
 														Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiuiana smod tempor  ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip. 
 													</p>
@@ -245,7 +245,7 @@
 				                            <li class="single-cart-list">
 				                                <a href="#" class="photo"><img src="assets/images/collection/arrivals1.png" class="cart-thumb" alt="image" /></a>
 				                                <div class="cart-list-txt">
-				                                	<h6><a href="#">arm <br> chair</a></h6>
+				                                	<h6><a href="#">Ghế <br> bành</a></h6>
 				                                	<p>1 x - <span class="price">$180.00</span></p>
 				                                </div><!--/.cart-list-txt-->
 				                                <div class="cart-close">
@@ -255,7 +255,7 @@
 				                            <li class="single-cart-list">
 				                                <a href="#" class="photo"><img src="assets/images/collection/arrivals2.png" class="cart-thumb" alt="image" /></a>
 				                                <div class="cart-list-txt">
-				                                	<h6><a href="#">single <br> armchair</a></h6>
+				                                	<h6><a href="#">Ghế <br> bành đơn</a></h6>
 				                                	<p>1 x - <span class="price">$180.00</span></p>
 				                                </div><!--/.cart-list-txt-->
 				                                <div class="cart-close">
@@ -265,7 +265,7 @@
 				                            <li class="single-cart-list">
 				                                <a href="#" class="photo"><img src="assets/images/collection/arrivals3.png" class="cart-thumb" alt="image" /></a>
 				                                <div class="cart-list-txt">
-				                                	<h6><a href="#">wooden arn <br> chair</a></h6>
+				                                	<h6><a href="#">Ghế tay <br> gỗ</a></h6>
 				                                	<p>1 x - <span class="price">$180.00</span></p>
 				                                </div><!--/.cart-list-txt-->
 				                                <div class="cart-close">
@@ -287,7 +287,7 @@
 				                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
 				                    <i class="fa fa-bars"></i>
 				                </button>
-				                <a class="navbar-brand" href="index.html">sine<span>mkt</span>.</a>
+				                <a class="navbar-brand" href="index.html">sine<span>TDT</span>.</a>
 
 				            </div><!--/.navbar-header-->
 				            <!-- End Header Navigation -->
@@ -295,11 +295,11 @@
 				            <!-- Collect the nav links, forms, and other content for toggling -->
 				            <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
 				                <ul class="nav navbar-nav navbar-center" data-in="fadeInDown" data-out="fadeOutUp">
-				                    <li class=" scroll active"><a href="#home">home</a></li>
-				                    <li class="scroll"><a href="#new-arrivals">new arrival</a></li>
-				                    <li class="scroll"><a href="#feature">features</a></li>
+				                    <li class=" scroll active"><a href="#home">Trang Chủ</a></li>
+				                    <li class="scroll"><a href="#new-arrivals">Hàng Mới Về</a></li>
+				                    <li class="scroll"><a href="#feature">Đặc Trưng</a></li>
 				                    <li class="scroll"><a href="#blog">blog</a></li>
-				                    <li class="scroll"><a href="#newsletter">contact</a></li>
+				                    <li class="scroll"><a href="#newsletter">Liên Hệ</a></li>
 				                </ul><!--/.nav -->
 				            </div><!-- /.navbar-collapse -->
 				        </div><!--/.container-->
@@ -324,7 +324,7 @@
 								<div class="single-populer-product-img mt40">
 									<img src="assets/images/populer-products/p1.png" alt="populer-products images">
 								</div>
-								<h2><a href="#">arm chair</a></h2>
+								<h2><a href="#">ghế bành</a></h2>
 								<div class="single-populer-products-para">
 									<p>Nemo enim ipsam voluptatem quia volu ptas sit asperna aut odit aut fugit.</p>
 								</div>
@@ -343,17 +343,17 @@
 											<div class="single-inner-populer-product-txt">
 												<h2>
 													<a href="#">
-														latest designed stool <span>and</span> chair
+														ghế đẩu <span>và</span> được thiết kế mới nhất
 													</a>
 												</h2>
 												<p>
 													Edi ut perspiciatis unde omnis iste natusina error sit voluptatem accusantium doloret mque laudantium, totam rem aperiam.
 												</p>
 												<div class="populer-products-price">
-													<h4>Sales Start from <span>$99.00</span></h4>
+													<h4>Giảm giá còn: <span>$99.00</span></h4>
 												</div>
 												<button class="btn-cart welcome-add-cart populer-products-btn" onclick="window.location.href='#'">
-													discover more
+													Giảm giá khác
 												</button>
 											</div>
 										</div>
@@ -367,7 +367,7 @@
 									<div class="single-populer-product-img">
 										<img src="assets/images/populer-products/p3.png" alt="populer-products images">
 									</div>
-									<h2><a href="#">hanging lamp</a></h2>
+									<h2><a href="#">đèn treo tường</a></h2>
 									<div class="single-populer-products-para">
 										<p>Nemo enim ipsam voluptatem quia volu ptas sit asperna aut odit aut fugit.</p>
 									</div>
@@ -385,7 +385,7 @@
 		<section id="new-arrivals" class="new-arrivals">
 			<div class="container">
 				<div class="section-header">
-					<h2>new arrivals</h2>
+					<h2>Hàng Mới Nhập</h2>
 				</div><!--/.section-header-->
 				<div class="new-arrivals-content">
 					<div class="row">
@@ -400,7 +400,7 @@
 									<div class="new-arrival-cart">
 										<p>
 											<span class="lnr lnr-cart"></span>
-											<a href="#">add <span>to </span> cart</a>
+											<a href="#">Thêm <span>vào giỏ </span> hàng</a>
 										</p>
 										<p class="arrival-review pull-right">
 											<span class="lnr lnr-heart"></span>
@@ -408,7 +408,7 @@
 										</p>
 									</div>
 								</div>
-								<h4><a href="#">wooden chair</a></h4>
+								<h4><a href="#">ghế gỗ</a></h4>
 								<p class="arrival-product-price">$65.00</p>
 							</div>
 						</div>
@@ -423,7 +423,7 @@
 									<div class="new-arrival-cart">
 										<p>
 											<span class="lnr lnr-cart"></span>
-											<a href="#">add <span>to </span> cart</a>
+											<a href="#">Thêm <span>vào giỏ </span> hàng</a>
 										</p>
 										<p class="arrival-review pull-right">
 											<span class="lnr lnr-heart"></span>
@@ -431,7 +431,7 @@
 										</p>
 									</div>
 								</div>
-								<h4><a href="#">single armchair</a></h4>
+								<h4><a href="#">ghế bành đơn</a></h4>
 								<p class="arrival-product-price">$80.00</p>
 							</div>
 						</div>
@@ -443,7 +443,7 @@
 									<div class="new-arrival-cart">
 										<p>
 											<span class="lnr lnr-cart"></span>
-											<a href="#">add <span>to </span> cart</a>
+											<a href="#">Thêm <span>vào giỏ </span> hàng</a>
 										</p>
 										<p class="arrival-review pull-right">
 											<span class="lnr lnr-heart"></span>
@@ -451,7 +451,7 @@
 										</p>
 									</div>
 								</div>
-								<h4><a href="#">wooden armchair</a></h4>
+								<h4><a href="#">ghế bành gỗ</a></h4>
 								<p class="arrival-product-price">$40.00</p>
 							</div>
 						</div>
@@ -466,7 +466,7 @@
 									<div class="new-arrival-cart">
 										<p>
 											<span class="lnr lnr-cart"></span>
-											<a href="#">add <span>to </span> cart</a>
+											<a href="#">Thêm <span>vào giỏ </span> hàng</a>
 										</p>
 										<p class="arrival-review pull-right">
 											<span class="lnr lnr-heart"></span>
@@ -474,7 +474,7 @@
 										</p>
 									</div>
 								</div>
-								<h4><a href="#">stylish chair</a></h4>
+								<h4><a href="#">ghế phong cách</a></h4>
 								<p class="arrival-product-price">$100.00</p>
 							</div>
 						</div>
@@ -486,7 +486,7 @@
 									<div class="new-arrival-cart">
 										<p>
 											<span class="lnr lnr-cart"></span>
-											<a href="#">add <span>to </span> cart</a>
+											<a href="#">Thêm <span>vào giỏ </span> hàng</a>
 										</p>
 										<p class="arrival-review pull-right">
 											<span class="lnr lnr-heart"></span>
@@ -494,7 +494,7 @@
 										</p>
 									</div>
 								</div>
-								<h4><a href="#">modern chair</a></h4>
+								<h4><a href="#">ghế hiện đại</a></h4>
 								<p class="arrival-product-price">$120.00</p>
 							</div>
 						</div>
@@ -509,7 +509,7 @@
 									<div class="new-arrival-cart">
 										<p>
 											<span class="lnr lnr-cart"></span>
-											<a href="#">add <span>to </span> cart</a>
+											<a href="#">Thêm <span>vào giỏ </span> hàng</a>
 										</p>
 										<p class="arrival-review pull-right">
 											<span class="lnr lnr-heart"></span>
@@ -517,7 +517,7 @@
 										</p>
 									</div>
 								</div>
-								<h4><a href="#">mapple wood dinning table</a></h4>
+								<h4><a href="#">bàn ăn gỗ phong</a></h4>
 								<p class="arrival-product-price">$140.00</p>
 							</div>
 						</div>
@@ -532,7 +532,7 @@
 									<div class="new-arrival-cart">
 										<p>
 											<span class="lnr lnr-cart"></span>
-											<a href="#">add <span>to </span> cart</a>
+										<a href="#">Thêm <span>vào giỏ </span> hàng</a>
 										</p>
 										<p class="arrival-review pull-right">
 											<span class="lnr lnr-heart"></span>
@@ -540,7 +540,7 @@
 										</p>
 									</div>
 								</div>
-								<h4><a href="#">arm chair</a></h4>
+								<h4><a href="#">ghế bành</a></h4>
 								<p class="arrival-product-price">$90.00</p>
 							</div>
 						</div>
@@ -552,7 +552,7 @@
 									<div class="new-arrival-cart">
 										<p>
 											<span class="lnr lnr-cart"></span>
-											<a href="#">add <span>to </span> cart</a>
+											<a href="#">Thêm <span>vào giỏ </span> hàng</a>
 										</p>
 										<p class="arrival-review pull-right">
 											<span class="lnr lnr-heart"></span>
@@ -560,7 +560,7 @@
 										</p>
 									</div>
 								</div>
-								<h4><a href="#">wooden bed</a></h4>
+								<h4><a href="#">giường gỗ</a></h4>
 								<p class="arrival-product-price">$140.00</p>
 							</div>
 						</div>
@@ -577,12 +577,12 @@
 				<div class="sofa-collection collectionbg1">
 					<div class="container">
 						<div class="sofa-collection-txt">
-							<h2>unlimited sofa collection</h2>
+							<h2>bộ sưu tập sofa không giới hạn</h2>
 							<p>
 								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
 							</p>
 							<div class="sofa-collection-price">
-								<h4>strting from <span>$ 199</span></h4>
+								<h4>Giá từ <span>$ 199</span></h4>
 							</div>
 							<button class="btn-cart welcome-add-cart sofa-collection-btn" onclick="window.location.href='#'">
 								view more
@@ -593,12 +593,12 @@
 				<div class="sofa-collection collectionbg2">
 					<div class="container">
 						<div class="sofa-collection-txt">
-							<h2>unlimited dainning table collection</h2>
+							<h2>bộ sưu tập bàn ăn không giới hạn</h2>
 							<p>
 								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
 							</p>
 							<div class="sofa-collection-price">
-								<h4>strting from <span>$ 299</span></h4>
+								<h4>Giá từ <span>$ 299</span></h4>
 							</div>
 							<button class="btn-cart welcome-add-cart sofa-collection-btn" onclick="window.location.href='#'">
 								view more
@@ -615,7 +615,7 @@
 		<section id="feature" class="feature">
 			<div class="container">
 				<div class="section-header">
-					<h2>featured products</h2>
+					<h2>sản phẩm nổi bật</h2>
 				</div><!--/.section-header-->
 				<div class="feature-content">
 					<div class="row">
@@ -631,7 +631,7 @@
 										<span class="spacial-feature-icon"><i class="fa fa-star"></i></span>
 										<span class="feature-review">(45 review)</span>
 									</p>
-									<h3><a href="#">designed sofa</a></h3>
+									<h3><a href="#">ghế sofa được thiết kế</a></h3>
 									<h5>$160.00</h5>
 								</div>
 							</div>
@@ -648,7 +648,7 @@
 										<span class="spacial-feature-icon"><i class="fa fa-star"></i></span>
 										<span class="feature-review">(45 review)</span>
 									</p>
-									<h3><a href="#">dinning table </a></h3>
+									<h3><a href="#">bàn ăn </a></h3>
 									<h5>$200.00</h5>
 								</div>
 							</div>
@@ -665,7 +665,7 @@
 										<span class="spacial-feature-icon"><i class="fa fa-star"></i></span>
 										<span class="feature-review">(45 review)</span>
 									</p>
-									<h3><a href="#">chair and table</a></h3>
+									<h3><a href="#">ghế và bàn</a></h3>
 									<h5>$100.00</h5>
 								</div>
 							</div>
@@ -682,7 +682,7 @@
 										<span class="spacial-feature-icon"><i class="fa fa-star"></i></span>
 										<span class="feature-review">(45 review)</span>
 									</p>
-									<h3><a href="#">modern arm chair</a></h3>
+									<h3><a href="#">ghế bành hiện đại</a></h3>
 									<h5>$299.00</h5>
 								</div>
 							</div>
@@ -698,7 +698,7 @@
 		<section id="blog" class="blog">
 			<div class="container">
 				<div class="section-header">
-					<h2>latest blog</h2>
+					<h2>blog mới nhất</h2>
 				</div><!--/.section-header-->
 				<div class="blog-content">
 					<div class="row">
@@ -709,7 +709,7 @@
 									<div class="single-blog-img-overlay"></div>
 								</div>
 								<div class="single-blog-txt">
-									<h2><a href="#">Why Brands are Looking at Local Language</a></h2>
+									<h2><a href="#">Tại sao các thương hiệu lại nhìn vào ngôn ngữ địa phương</a></h2>
 									<h3>By <a href="#">Robert Norby</a> / 18th March 2018</h3>
 									<p>
 										Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.... 
@@ -725,7 +725,7 @@
 									<div class="single-blog-img-overlay"></div>
 								</div>
 								<div class="single-blog-txt">
-									<h2><a href="#">Why Brands are Looking at Local Language</a></h2>
+									<h2><a href="#">Tại sao các thương hiệu lại nhìn vào ngôn ngữ địa phương</a></h2>
 									<h3>By <a href="#">Robert Norby</a> / 18th March 2018</h3>
 									<p>
 										Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.... 
@@ -740,7 +740,7 @@
 									<div class="single-blog-img-overlay"></div>
 								</div>
 								<div class="single-blog-txt">
-									<h2><a href="#">Why Brands are Looking at Local Language</a></h2>
+									<h2><a href="#">Tại sao các thương hiệu lại nhìn vào ngôn ngữ địa phương</a></h2>
 									<h3>By <a href="#">Robert Norby</a> / 18th March 2018</h3>
 									<p>
 										Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.... 
@@ -799,14 +799,14 @@
 						<div class=" col-md-3 col-sm-6 col-xs-12">
 							<div class="hm-footer-widget">
 								<div class="hm-foot-title">
-									<h4>information</h4>
+									<h4>những thông tin khác</h4>
 								</div><!--/.hm-foot-title-->
 								<div class="hm-foot-menu">
 									<ul>
-										<li><a href="#">about us</a></li><!--/li-->
-										<li><a href="#">contact us</a></li><!--/li-->
-										<li><a href="#">news</a></li><!--/li-->
-										<li><a href="#">store</a></li><!--/li-->
+										<li><a href="#">về chúng tôi</a></li><!--/li-->
+										<li><a href="#">liên hệ chúng tôi</a></li><!--/li-->
+										<li><a href="#">mới</a></li><!--/li-->
+										<li><a href="#">cửa hàng</a></li><!--/li-->
 									</ul><!--/ul-->
 								</div><!--/.hm-foot-menu-->
 							</div><!--/.hm-footer-widget-->
@@ -814,15 +814,15 @@
 						<div class=" col-md-3 col-sm-6 col-xs-12">
 							<div class="hm-footer-widget">
 								<div class="hm-foot-title">
-									<h4>collections</h4>
+									<h4>bộ sưu tập</h4>
 								</div><!--/.hm-foot-title-->
 								<div class="hm-foot-menu">
 									<ul>
-										<li><a href="#">wooden chair</a></li><!--/li-->
-										<li><a href="#">royal cloth sofa</a></li><!--/li-->
-										<li><a href="#">accent chair</a></li><!--/li-->
-										<li><a href="#">bed</a></li><!--/li-->
-										<li><a href="#">hanging lamp</a></li><!--/li-->
+										<li><a href="#">ghế gỗ</a></li><!--/li-->
+										<li><a href="#">ghế sofa vải hoàng gia</a></li><!--/li-->
+										<li><a href="#">ghế nhấn</a></li><!--/li-->
+										<li><a href="#">giường</a></li><!--/li-->
+										<li><a href="#">đèn treo tường</a></li><!--/li-->
 									</ul><!--/ul-->
 								</div><!--/.hm-foot-menu-->
 							</div><!--/.hm-footer-widget-->
@@ -830,15 +830,15 @@
 						<div class=" col-md-3 col-sm-6 col-xs-12">
 							<div class="hm-footer-widget">
 								<div class="hm-foot-title">
-									<h4>my accounts</h4>
+									<h4>tài khoản của tôi</h4>
 								</div><!--/.hm-foot-title-->
 								<div class="hm-foot-menu">
 									<ul>
-										<li><a href="#">my account</a></li><!--/li-->
-										<li><a href="#">wishlist</a></li><!--/li-->
-										<li><a href="#">Community</a></li><!--/li-->
-										<li><a href="#">order history</a></li><!--/li-->
-										<li><a href="#">my cart</a></li><!--/li-->
+										<li><a href="#">tài khoản của tôi</a></li><!--/li-->
+										<li><a href="#">danh sách mong muốn</a></li><!--/li-->
+										<li><a href="#">Cộng đồng</a></li><!--/li-->
+										<li><a href="#">lịch sử đơn hàng</a></li><!--/li-->
+										<li><a href="#">giỏ hàng của tôi</a></li><!--/li-->
 									</ul><!--/ul-->
 								</div><!--/.hm-foot-menu-->
 							</div><!--/.hm-footer-widget-->
@@ -846,11 +846,11 @@
 						<div class=" col-md-3 col-sm-6  col-xs-12">
 							<div class="hm-footer-widget">
 								<div class="hm-foot-title">
-									<h4>newsletter</h4>
+									<h4>bản tin</h4>
 								</div><!--/.hm-foot-title-->
 								<div class="hm-foot-para">
 									<p>
-										Subscribe  to get latest news,update and information.
+										Đăng ký để nhận tin tức, cập nhật và thông tin mới nhất.
 									</p>
 								</div><!--/.hm-foot-para-->
 								<div class="hm-foot-email">
@@ -883,7 +883,7 @@
 						<a href="#"><i class="fa fa-behance"></i></a>	
 					</div>
 					<p>
-						&copy;copyright. designed and developed by <a href="https://www.themesine.com/">themesine</a>
+						&copy;copyright. được thiết kế và phát triển bởi <a href="https://www.themesine.com/">TDT</a>
 					</p><!--/p-->
 				</div><!--/.text-center-->
 			</div><!--/.container-->
