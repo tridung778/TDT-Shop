@@ -12,7 +12,9 @@
 
         <!--font-family-->
 		<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
-        
+        <link href="
+        https://cdn.jsdelivr.net/npm/fontawesome-6-pro@6.4.0/css/all.min.css
+        " rel="stylesheet">
         <!-- title of site -->
         <title>Furniture</title>
 
@@ -236,6 +238,9 @@
 				                	<li class="nav-setting">
 				                		<a href="#"><span class="lnr lnr-cog"></span></a>
 				                	</li><!--/.search-->
+				                	<li class="nav-setting">
+				                		<a href="login_signup"><span class="fa-thin fa-user"></span></a>
+				                	</li>
 				                    <li class="dropdown">
 				                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" >
 				                            <span class="lnr lnr-cart"></span>
@@ -276,6 +281,7 @@
 				                                <span>Total: $0.00</span>
 				                                <button class="btn-cart pull-right" onclick="window.location.href='#'">view cart</button>
 				                            </li>
+				                            
 				                        </ul>
 				                    </li><!--/.dropdown-->
 				                </ul>
