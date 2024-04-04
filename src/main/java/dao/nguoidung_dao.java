@@ -14,24 +14,31 @@ public class nguoidung_dao implements Dao_Interface<nguoidung> {
 	@Override
 	public boolean insert(nguoidung t) {
 		try {
+			// Lấy sessionFactory từ HBN_Util
 			SessionFactory factory = HBN_Util.getSessionFactory();
 			if (factory != null) {
+				// Mở một session từ sessionFactory
 				Session session = factory.openSession();
 				Transaction tr = null;
 				try {
+					// Bắt đầu giao dịch
 					tr = session.beginTransaction();
-					// thao tac truy van o day
+					// Tạo một đối tượng nguoidung mới từ thông tin được chuyển vào
 					nguoidung n = new nguoidung(t.getHoDem(), t.getTen(), t.getTaiKhoan(), t.getMatKhau(), t.getTuoi(),
 							t.getChucVu(), t.getEmail(), t.getDiaChi(), t.getSoDienThoai());
+					// Lưu đối tượng vào cơ sở dữ liệu
 					session.persist(n);
+					// Commit giao dịch
 					tr.commit();
 					return true;
 				} catch (Exception e) {
+					// Nếu có lỗi, rollback giao dịch
 					if (tr != null) {
 						tr.rollback();
 					}
 					e.printStackTrace();
 				} finally {
+					// Đóng session sau khi hoàn tất
 					session.close();
 				}
 			}
@@ -44,23 +51,30 @@ public class nguoidung_dao implements Dao_Interface<nguoidung> {
 	@Override
 	public boolean delete(int id) {
 		try {
+			// Lấy sessionFactory từ HBN_Util
 			SessionFactory factory = HBN_Util.getSessionFactory();
 			if (factory != null) {
+				// Mở một session từ sessionFactory
 				Session session = factory.openSession();
 				Transaction tr = null;
 				try {
+					// Bắt đầu giao dịch
 					tr = session.beginTransaction();
-					// thao tac truy van o day
+					// Tìm kiếm nguoidung dựa trên id
 					nguoidung n = session.find(nguoidung.class, id);
+					// Xóa nguoidung từ cơ sở dữ liệu
 					session.remove(n);
+					// Commit giao dịch
 					tr.commit();
 					return true;
 				} catch (Exception e) {
+					// Nếu có lỗi, rollback giao dịch
 					if (tr != null) {
 						tr.rollback();
 					}
 					e.printStackTrace();
 				} finally {
+					// Đóng session sau khi hoàn tất
 					session.close();
 				}
 			}
@@ -80,21 +94,27 @@ public class nguoidung_dao implements Dao_Interface<nguoidung> {
 	public List<nguoidung> selectAll() {
 		List<nguoidung> nguoidungresult = null;
 		try {
+			// Lấy sessionFactory từ HBN_Util
 			SessionFactory factory = HBN_Util.getSessionFactory();
 			if (factory != null) {
+				// Mở một session từ sessionFactory
 				Session session = factory.openSession();
 				Transaction tr = null;
 				try {
+					// Bắt đầu giao dịch
 					tr = session.beginTransaction();
-					// thao tac truy van o day
+					// Lấy tất cả nguoidung từ cơ sở dữ liệu
 					nguoidungresult = session.createQuery("FROM nguoidung").getResultList();
+					// Commit giao dịch
 					tr.commit();
 				} catch (Exception e) {
+					// Nếu có lỗi, rollback giao dịch
 					if (tr != null) {
 						tr.rollback();
 					}
 					e.printStackTrace();
 				} finally {
+					// Đóng session sau khi hoàn tất
 					session.close();
 				}
 			}
@@ -108,21 +128,28 @@ public class nguoidung_dao implements Dao_Interface<nguoidung> {
 	public nguoidung selectById(int id) {
 		nguoidung n = null;
 		try {
+			// Lấy sessionFactory từ HBN_Util
 			SessionFactory factory = HBN_Util.getSessionFactory();
 			if (factory != null) {
+				// Mở một session từ sessionFactory
 				Session session = factory.openSession();
 				Transaction tr = null;
 				try {
+					// Bắt đầu giao dịch
 					tr = session.beginTransaction();
+					// Tìm kiếm nguoidung dựa trên id
 					n = session.find(nguoidung.class, id);
+					// Commit giao dịch
 					tr.commit();
 					return n;
 				} catch (Exception e) {
+					// Nếu có lỗi, rollback giao dịch
 					if (tr != null) {
 						tr.rollback();
 					}
 					e.printStackTrace();
 				} finally {
+					// Đóng session sau khi hoàn tất
 					session.close();
 				}
 			}
