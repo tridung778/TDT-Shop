@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+		"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+		"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+		<property name="hibernate.connection.driver_class">net.sourceforge.jtds.jdbc.Driver</property>
+		<property name="hibernate.connection.password">123</property>
+		<property name="hibernate.connection.url">jdbc:jtds:sqlserver://TRANQUOCTHUAN:1703/asmjava4</property>
+		<property name="hibernate.connection.username">sa</property>
+		<property name="hibernate.dialect">org.hibernate.dialect.SQLServerDialect</property>
+		<property name="hibernate.hbm2ddl.auto">update</property>
+		<property name="hibernate.show_sql">true</property>
+
+
+		<mapping class="model.nguoidung" />
+		<mapping class="model.sanpham" />
+		<mapping class="model.giohang" />
+		<mapping class="model.donhang" />
+		<mapping class="model.khachang" />
+		<mapping class="model.donhangchitiet" />
+	</session-factory>
+</hibernate-configuration>

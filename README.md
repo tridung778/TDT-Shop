@@ -1,0 +1,1 @@
+Chạy file test.java
