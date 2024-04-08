@@ -4,6 +4,7 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.OneToOne;
 
 @Entity
 public class nguoidung {
@@ -19,14 +20,21 @@ public class nguoidung {
 	private int tuoi;
 	private String chucVu;
 	private String email;
+	@Column(columnDefinition = "NVARCHAR(MAX)")
 	private String diaChi;
 	private String soDienThoai;
+	@OneToOne
+	private giohang giohang;
 
 	public nguoidung() {
 	}
 
+	
+	
+
 	public nguoidung(String hoDem, String ten, String taiKhoan, String matKhau, int tuoi, String chucVu, String email,
-			String diaChi, String soDienThoai) {
+			String diaChi, String soDienThoai, model.giohang giohang) {
+		super();
 		this.hoDem = hoDem;
 		this.ten = ten;
 		this.taiKhoan = taiKhoan;
@@ -36,7 +44,25 @@ public class nguoidung {
 		this.email = email;
 		this.diaChi = diaChi;
 		this.soDienThoai = soDienThoai;
+		this.giohang = giohang;
 	}
+
+
+
+
+	public giohang getGiohang() {
+		return giohang;
+	}
+
+
+
+
+	public void setGiohang(giohang giohang) {
+		this.giohang = giohang;
+	}
+
+
+
 
 	public int getNguoidung_id() {
 		return nguoidung_id;
@@ -118,11 +144,16 @@ public class nguoidung {
 		this.soDienThoai = soDienThoai;
 	}
 
+
+
+
 	@Override
 	public String toString() {
-		return "nguoidung [hoDem=" + hoDem + ", ten=" + ten + ", taiKhoan=" + taiKhoan
-				+ ", matKhau=" + matKhau + ", tuoi=" + tuoi + ", chucVu=" + chucVu + ", email=" + email + ", diaChi="
-				+ diaChi + ", soDienThoai=" + soDienThoai + "]";
+		return "nguoidung [nguoidung_id=" + nguoidung_id + ", hoDem=" + hoDem + ", ten=" + ten + ", taiKhoan="
+				+ taiKhoan + ", matKhau=" + matKhau + ", tuoi=" + tuoi + ", chucVu=" + chucVu + ", email=" + email
+				+ ", diaChi=" + diaChi + ", soDienThoai=" + soDienThoai + ", giohang=" + giohang + "]";
 	}
+
+	
 
 }

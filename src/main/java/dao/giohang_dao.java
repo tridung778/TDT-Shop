@@ -23,7 +23,7 @@ public class giohang_dao implements Dao_Interface<giohang> {
 					// Bắt đầu giao dịch
 					tr = session.beginTransaction();
 					// Tạo một đối tượng giohang mới từ thông tin được chuyển vào
-					giohang n = new giohang(t.getNguoidung_id(), t.getSanphams());
+					giohang n = new giohang(t.getSanphams());
 					// Lưu đối tượng vào cơ sở dữ liệu
 					session.persist(n);
 					// Commit giao dịch

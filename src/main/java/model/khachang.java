@@ -14,13 +14,12 @@ public class khachang {
 	@GeneratedValue
 	private int khachang_id;
 
-	@Column(nullable = false)
+	@Column(columnDefinition = "NVARCHAR(MAX)")
 	private String hoTen;
 
-	@Column(nullable = false)
 	private String email;
 
-	@Column(nullable = false)
+	@Column(columnDefinition = "NVARCHAR(MAX)")
 	private String address;
 
 	@Column(nullable = false)

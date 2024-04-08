@@ -3,6 +3,7 @@ package model;
 import java.sql.Date;
 import java.util.List;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
@@ -15,8 +16,9 @@ public class donhang {
 	private int donhang_id;
 	private double tongTien;
 	private Date ngayDatHang;
-	@OneToMany(mappedBy = "sanpham_id")
+	@OneToMany()
 	private List<sanpham> sanphams;
+	@Column(columnDefinition = "NVARCHAR(MAX)")
 	private String phuongThucThanhToan;
 
 	public donhang() {
