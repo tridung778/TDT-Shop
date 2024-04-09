@@ -5,8 +5,8 @@
 <hibernate-configuration>
 	<session-factory>
 		<property name="hibernate.connection.driver_class">net.sourceforge.jtds.jdbc.Driver</property>
-		<property name="hibernate.connection.password">123</property>
-		<property name="hibernate.connection.url">jdbc:jtds:sqlserver://TRANQUOCTHUAN:1703/asmjava4</property>
+		<property name="hibernate.connection.password">thuan123</property>
+		<property name="hibernate.connection.url">jdbc:jtds:sqlserver://TRANQUOCTHUAN:1703/asmfinaljava4</property>
 		<property name="hibernate.connection.username">sa</property>
 		<property name="hibernate.dialect">org.hibernate.dialect.SQLServerDialect</property>
 		<property name="hibernate.hbm2ddl.auto">update</property>

@@ -5,6 +5,7 @@ import java.util.List;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
+import org.hibernate.query.Query;
 
 import Util.HBN_Util;
 import model.nguoidung;
@@ -25,7 +26,7 @@ public class nguoidung_dao implements Dao_Interface<nguoidung> {
 					tr = session.beginTransaction();
 					// Tạo một đối tượng nguoidung mới từ thông tin được chuyển vào
 					nguoidung n = new nguoidung(t.getHoDem(), t.getTen(), t.getTaiKhoan(), t.getMatKhau(), t.getTuoi(),
-							t.getChucVu(), t.getEmail(), t.getDiaChi(), t.getSoDienThoai());
+							t.getChucVu(), t.getEmail(), t.getDiaChi(), t.getSoDienThoai(), t.getGiohang());
 					// Lưu đối tượng vào cơ sở dữ liệu
 					session.persist(n);
 					// Commit giao dịch
@@ -156,6 +157,43 @@ public class nguoidung_dao implements Dao_Interface<nguoidung> {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
+		return n;
+	}
+
+	public nguoidung login(String username, String password) {
+		nguoidung n = null;
+
+		try {
+			// Lấy sessionFactory từ HBN_Util
+			SessionFactory factory = HBN_Util.getSessionFactory();
+			if (factory != null) {
+				// Mở một session từ sessionFactory
+				Session session = factory.openSession();
+				Transaction tr = null;
+				try {
+					// Bắt đầu giao dịch
+					tr = session.beginTransaction();
+					String hql = "FROM nguoidung WHERE taiKhoan = :a AND matKhau = :b";
+					Query<nguoidung> query = session.createQuery(hql, nguoidung.class);
+					query.setParameter("a", username);
+					query.setParameter("b", password);
+					n = query.getSingleResult();
+					// Commit giao dịch
+					tr.commit();
+					System.out.println(n);
+				} catch (Exception e) {
+					// Nếu có lỗi, rollback giao dịch
+					if (tr != null) {
+						tr.rollback();
+					}
+				} finally {
+					// Đóng session sau khi hoàn tất
+					session.close();
+				}
+			}
+		} catch (Exception e) {
+		}
+
 		return n;
 	}
 

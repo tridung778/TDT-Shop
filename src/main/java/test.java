@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * Servlet implementation class test
  */
-@WebServlet({ "/test", "/Detail" })
+@WebServlet({ "/test", "/Detail", "/addProduct", "/indexAdmin" })
 public class test extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
@@ -34,12 +34,25 @@ public class test extends HttpServlet {
 
 		request.setCharacterEncoding("utf-8");
 
-		if (url.contains("Detail")) {
-			request.setAttribute("contentPage", "component/Detail.jsp");
+		// User layout
+//		if (url.contains("Detail")) {
+//			request.setAttribute("contentPage", "component/Detail.jsp");
+//		} else {
+//			request.setAttribute("contentPage", "component/Body.jsp");
+//		}
+//		request.setAttribute("contentPage", "component/Body.jsp");
+//		RequestDispatcher dispatcher = request.getRequestDispatcher("index.jsp");
+
+		// Admin layout
+		if (url.contains("addProduct")) {
+			request.setAttribute("contentPageAdmin", "AdminComponent/addProduct.jsp");
 		} else {
-			request.setAttribute("contentPage", "component/Body.jsp");
+			request.setAttribute("contentPageAdmin", "AdminComponent/mainManager.jsp");
 		}
-		RequestDispatcher dispatcher = request.getRequestDispatcher("/index.jsp");
+//	request.setAttribute("contentPage", "component/Body.jsp");
+//	RequestDispatcher dispatcher = request.getRequestDispatcher("index.jsp");
+		RequestDispatcher dispatcher = request.getRequestDispatcher("component/indexAdmin.jsp");
+
 		dispatcher.forward(request, response);
 
 	}
@@ -50,8 +63,7 @@ public class test extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
-		// TODO Auto-generated method stub
-		doGet(request, response);
+
 	}
 
 }
