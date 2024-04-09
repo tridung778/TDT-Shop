@@ -58,10 +58,10 @@
 						<table class="table table-striped">
 							<thead>
 								<tr class="highlight">
-									<th scope="col">#</th>
-									<th scope="col">First</th>
-									<th scope="col">Last</th>
-									<th scope="col">Handle</th>
+									<th scope="col">ID</th>
+									<th scope="col">Tên</th>
+									<th scope="col">Doanh thu</th>
+									<th scope="col">Số lượng đã bán</th>
 								</tr>
 							</thead>
 							<tbody>
@@ -79,22 +79,22 @@
 								</tr>
 								<tr>
 									<th scope="row">3</th>
-									<td colspan="2">Larry the Bird</td>
+									<td>Larry the Bird</td>
 									<td>@twitter</td>
+									<td>@fat</td>
 								</tr>
 							</tbody>
 						</table>
 					</div>
-					
+
 					<div class="col-4">
-					<h3 class="fw-bold fs-4 my-3">Các sản phẩm còn trong kho</h3>
-					<table class="table table-striped">
+						<h3 class="fw-bold fs-4 my-3">Các sản phẩm còn trong kho</h3>
+						<table class="table table-striped">
 							<thead>
 								<tr class="highlight">
-									<th scope="col">#</th>
-									<th scope="col">First</th>
-									<th scope="col">Last</th>
-									<th scope="col">Handle</th>
+									<th scope="col">ID</th>
+									<th scope="col">Tên</th>
+									<th scope="col">Số lượng còn lại</th>
 								</tr>
 							</thead>
 							<tbody>
@@ -102,17 +102,15 @@
 									<th scope="row">1</th>
 									<td>Mark</td>
 									<td>Otto</td>
-									<td>@mdo</td>
 								</tr>
 								<tr>
 									<th scope="row">2</th>
 									<td>Jacob</td>
 									<td>Thornton</td>
-									<td>@fat</td>
 								</tr>
 								<tr>
 									<th scope="row">3</th>
-									<td colspan="2">Larry the Bird</td>
+									<td>Larry the Bird</td>
 									<td>@twitter</td>
 								</tr>
 							</tbody>
@@ -122,21 +120,4 @@
 			</div>
 		</div>
 	</main>
-	<footer class="footer">
-		<div class="container-fluid">
-			<div class="row text-body-secondary">
-				<div class="col-6 text-start ">
-					<a class="text-body-secondary" href=" #"> <strong>CodzSwod</strong>
-					</a>
-				</div>
-				<div class="col-6 text-end text-body-secondary d-none d-md-block">
-					<ul class="list-inline mb-0">
-						<li class="list-inline-item"><a class="text-body-secondary" href="#">Contact</a></li>
-						<li class="list-inline-item"><a class="text-body-secondary" href="#">About Us</a></li>
-						<li class="list-inline-item"><a class="text-body-secondary" href="#">Terms & Conditions</a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</footer>
 </div>

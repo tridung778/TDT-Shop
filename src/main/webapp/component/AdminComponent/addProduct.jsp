@@ -1,121 +1,78 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-<title>Insert title here</title>
-<style type="text/css">
-body, html {
-    height: 100%;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.container {
-    width: 500px;
-    padding: 40px;
-    border: 2px solid #ccc;
-    border-radius: 5px;
-}
-form {
-    margin: 20px;
-    padding: 20px;
-    border: 1px solid #ccc; 
-    border-radius: 5px; 
-    width: 400px;
-    background-color: gray;
-    font-size: 25px;
-}
-
-label {
-    display: block;
-    margin-bottom: 5px;
-}
-
-input[type="text"],
-input[type="number"] {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 10px; 
-    border: 1px solid #ccc; 
-    border-radius: 5px; 
-    box-sizing: border-box;
-}
-
-input[type="number"] {
-    -moz-appearance: textfield;
-}
-
-input[type="submit"] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-input[type="submit"]:hover {
-    background-color: #45a049;
-}
-
-</style>
-</head>
 <body>
-
-<div class="container">
-  <ul class="nav nav-tabs" id="myTab" role="tablist">
-    <li class="nav-item" role="presentation">	
-      <button class="nav-link active" id="tab1-tab" data-bs-toggle="tab" data-bs-target="#tab1" type="button" role="tab" aria-controls="tab1" aria-selected="true">Cập Nhật</button>
-    </li>
-    <li class="nav-item" role="presentation">
-      <button class="nav-link" id="tab2-tab" data-bs-toggle="tab" data-bs-target="#tab2" type="button" role="tab" aria-controls="tab2" aria-selected="false">Danh Sách</button>
-    </li>
-  </ul>
-  <div class="tab-content" id="myTabContent">
-    <div class="tab-pane fade show active" id="tab1" role="tabpanel" aria-labelledby="tab1-tab">
-      <form action="">
-		<label>Mã Sản Phẩm</label>
-		<input type="text"><br>
-		<label>Tên Sản Phẩm</label>
-		<input type="text"><br>
-		<label>Số Lượng</label>
-		<input type="number"><br>
-		<label>Giá Gốc</label>
-		<input type="number"><br>
-		<label>Giá Hiện Tại</label>
-		<input type="number"><br>
-		<label>Mô Tả Sản Phẩm</label>
-		<input type="text"><br>
-	</form>
-    </div>
-    <div class="tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="tab2-tab">
-      <h4>Thông Tin Sản Phẩm</h4>
-  <table class="table">
-  <tr class="fs-5">
-    <th>Mã Sản Phẩm</th>
-    <th>Tên Sản Phẩm</th>
-    <th>Số Lượng</th>
-    <th>Giá Gốc</th>
-    <th>Giá Hiện Tại</th>
-    <th>Mô Tả Sản Phẩm</th>
-  </tr>
-  <tr>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
-  </tr>
-</table>
-
-    </div>
-  </div>
-</div>
-	
+	<div class="container mt-3">
+		<div class="d-flex flex-column aligh-items-center justify-content-center">
+			<h1>Thêm sản phẩm</h1>
+			<div class="row">
+				<form class="col-4">
+					<div class="mb-3">
+						<label class="form-label">Mã sản phẩm</label> <input type="text" class="form-control">
+					</div>
+					<div class="mb-3">
+						<label class="form-label">Tên sản phẩm</label> <input type="text" class="form-control">
+					</div>
+					<div class="mb-3">
+						<label class="form-label">Số lượng</label> <input type="text" class="form-control">
+					</div>
+					<div class="mb-3">
+						<label class="form-label">Giá gốc</label> <input type="text" class="form-control">
+					</div>
+					<div class="mb-3">
+						<label class="form-label">Giá hiện tại</label> <input type="text" class="form-control">
+					</div>
+					<div class="mb-3">
+						<label class="form-label">Mô tả sản phẩm</label>
+						<textarea class="form-control" rows="3" aria-label="With textarea"></textarea>
+					</div>
+					<a class="btn btn-secondary ms-3">Mới</a> <a class="btn btn-success ms-3">Thêm</a> <a class="btn btn-danger ms-3">Xóa</a> <a class="btn btn-warning ms-3">Sửa</a>
+					<p class="invisible">a</p>
+				</form>
+				<div class="col-8">
+					<table class="table">
+						<thead>
+							<tr>
+								<th scope="col">Mã sản phẩm</th>
+								<th scope="col">Tên sản phẩm</th>
+								<th scope="col">Số lượng</th>
+								<th scope="col">Giá gốc</th>
+								<th scope="col">Giá hiện tại</th>
+								<th scope="col">Mô tả</th>
+								<th scope="col">Sửa</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<th scope="row">1</th>
+								<td>Mark</td>
+								<td>Otto</td>
+								<td>@mdo</td>
+								<td>Larry the Bird</td>
+								<td>@twitter</td>
+								<td>@twitter</td>
+							</tr>
+							<tr>
+								<th scope="row">2</th>
+								<td>Jacob</td>
+								<td>Thornton</td>
+								<td>@fat</td>
+								<td>Jacob</td>
+								<td>Thornton</td>
+								<td>@fat</td>
+							</tr>
+							<tr>
+								<th scope="row">3</th>
+								<td>Larry the Bird</td>
+								<td>@twitter</td>
+								<td>Larry the Bird</td>
+								<td>@twitter</td>
+								<td>Larry the Bird</td>
+								<td>@twitter</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
 </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-</html>
