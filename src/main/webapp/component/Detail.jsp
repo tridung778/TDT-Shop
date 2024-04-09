@@ -24,20 +24,20 @@
 				<aside class="col-lg-6">
 					<div class="border rounded-4 mb-3 d-flex justify-content-center">
 						<a data-fslightbox="mygalley" class="rounded-4" target="_blank" data-type="image" href="#"> <img style="max-width: 100%; max-height: 100vh; margin: auto;" class="rounded-4 fit"
-							src="https://pos.nvncdn.com/e55206-92814/ps/20230704_QMkdr8j7Do.jpeg" />
+							src="http://localhost:8080/ASM_JAVA4/assets/images/slider/slider1.png" />
 						</a>
 					</div>
 					<div class="d-flex justify-content-center mb-3">
 						<a data-fslightbox="mygalley" class="border mx-1 rounded-2" target="_blank" data-type="image" href="#" class="item-thumb"> <img width="60" height="60" class="rounded-2"
-							src="https://pos.nvncdn.com/e55206-92814/ps/20230704_QMkdr8j7Do.jpeg" />
+							src="http://localhost:8080/ASM_JAVA4/assets/images/slider/slider1.png" />
 						</a> <a data-fslightbox="mygalley" class="border mx-1 rounded-2" target="_blank" data-type="image" href="#" class="item-thumb"> <img width="60" height="60" class="rounded-2"
-							src="https://pos.nvncdn.com/e55206-92814/ps/20230704_QMkdr8j7Do.jpeg" />
+							src="http://localhost:8080/ASM_JAVA4/assets/images/slider/slider1.png" />
 						</a> <a data-fslightbox="mygalley" class="border mx-1 rounded-2" target="_blank" data-type="image" href="#" class="item-thumb"> <img width="60" height="60" class="rounded-2"
-							src="https://pos.nvncdn.com/e55206-92814/ps/20230704_QMkdr8j7Do.jpeg" />
+							src="http://localhost:8080/ASM_JAVA4/assets/images/slider/slider1.png" />
 						</a> <a data-fslightbox="mygalley" class="border mx-1 rounded-2" target="_blank" data-type="image" href="#" class="item-thumb"> <img width="60" height="60" class="rounded-2"
-							src="https://pos.nvncdn.com/e55206-92814/ps/20230704_QMkdr8j7Do.jpeg" />
+							src="http://localhost:8080/ASM_JAVA4/assets/images/slider/slider1.png" />
 						</a> <a data-fslightbox="mygalley" class="border mx-1 rounded-2" target="_blank" data-type="image" href="#" class="item-thumb"> <img width="60" height="60" class="rounded-2"
-							src="https://pos.nvncdn.com/e55206-92814/ps/20230704_QMkdr8j7Do.jpeg" />
+							src="http://localhost:8080/ASM_JAVA4/assets/images/slider/slider1.png" />
 						</a>
 					</div>
 					<!-- thumbs-wrap.// -->
@@ -45,7 +45,7 @@
 				</aside>
 				<main class="col-lg-6">
 					<div class="ps-lg-3 fs-3">
-						<h4 class="title text-dark fs-1">Áo thun nam thời trang hàn quốc</h4>
+						<h4 class="title text-dark fs-1">Ghế Bọc Vải</h4>
 						<div class="d-flex flex-row my-3 fs-3">
 							<div class="text-warning mb-1 me-2">
 								<i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fas fa-star-half-alt"></i> <span class="ms-1"> 4.5 </span>
@@ -184,36 +184,36 @@
 							<div class="card-body">
 								<h5 class="card-title fs-1">Sản phẩm tương tự</h5>
 								<div class="d-flex mb-3">
-									<a href="#" class="me-3"> <img src="https://pos.nvncdn.com/e55206-92814/ps/20230704_QMkdr8j7Do.jpeg" style="min-width: 96px; height: 96px;" class="img-md img-thumbnail" />
+									<a href="#" class="me-3"> <img src="http://localhost:8080/ASM_JAVA4/assets/images/slider/slider1.png" style="min-width: 96px; height: 96px;" class="img-md img-thumbnail" />
 									</a>
 									<div class="info">
-										<a href="#" class="nav-link mb-1"> Áo Thun Nam Thời Trang Hàn Quốc
+										<a href="#" class="nav-link mb-1"> Ghế Bọc Vải
 										</a> <strong class="text-dark"> 299.000 ₫</strong>
 									</div>
 								</div>
 
 								<div class="d-flex mb-3">
-									<a href="#" class="me-3"> <img src="https://pos.nvncdn.com/e55206-92814/ps/20230704_QMkdr8j7Do.jpeg" style="min-width: 96px; height: 96px;" class="img-md img-thumbnail" />
+									<a href="#" class="me-3"> <img src="http://localhost:8080/ASM_JAVA4/assets/images/slider/slider1.png" style="min-width: 96px; height: 96px;" class="img-md img-thumbnail" />
 									</a>
 									<div class="info">
-										<a href="#" class="nav-link mb-1">Áo Thun Nam Thời Trang Hàn Quốc
+										<a href="#" class="nav-link mb-1">Ghế Bọc Vải
 										</a> <strong class="text-dark"> 299.000 ₫</strong>
 									</div>
 								</div>
 
 								<div class="d-flex mb-3">
-									<a href="#" class="me-3"> <img src="https://pos.nvncdn.com/e55206-92814/ps/20230704_QMkdr8j7Do.jpeg" style="min-width: 96px; height: 96px;" class="img-md img-thumbnail" />
+									<a href="#" class="me-3"> <img src="http://localhost:8080/ASM_JAVA4/assets/images/slider/slider1.png" style="min-width: 96px; height: 96px;" class="img-md img-thumbnail" />
 									</a>
 									<div class="info">
-										<a href="#" class="nav-link mb-1"> Áo Thun Nam Thời Trang Hàn Quốc</a> <strong class="text-dark"> 299.000 ₫</strong>
+										<a href="#" class="nav-link mb-1"> Ghế Bọc Vải</a> <strong class="text-dark"> 299.000 ₫</strong>
 									</div>
 								</div>
 
 								<div class="d-flex">
-									<a href="#" class="me-3"> <img src="https://pos.nvncdn.com/e55206-92814/ps/20230704_QMkdr8j7Do.jpeg" style="min-width: 96px; height: 96px;" class="img-md img-thumbnail" />
+									<a href="#" class="me-3"> <img src="http://localhost:8080/ASM_JAVA4/assets/images/slider/slider1.png" style="min-width: 96px; height: 96px;" class="img-md img-thumbnail" />
 									</a>
 									<div class="info">
-										<a href="#" class="nav-link mb-1"> Áo Thun Nam Thời Trang Hàn Quốc</a> <strong class="text-dark"> 299.000 ₫</strong>
+										<a href="#" class="nav-link mb-1"> Ghế Bọc Vải</a> <strong class="text-dark"> 299.000 ₫</strong>
 									</div>
 								</div>
 							</div>

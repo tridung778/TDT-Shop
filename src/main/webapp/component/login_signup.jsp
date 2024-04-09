@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
+	<%@ page isELIgnored="false"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -15,19 +16,22 @@
 				<button type="button" class="switcher switcher-login">
 					Login <span class="underline"></span>
 				</button>
-				<form class="form form-login">
+				<form class="form form-login" action="login_signup" method="post">
 					<fieldset>
 						<legend>Please, enter your email and password for login.</legend>
 						<div class="input-block">
-							<label for="login-email">E-mail</label> <input id="login-email"
-								type="email" required>
+							<label for="login-email">Username</label> <input id="login-email"
+								name="userName" type="text" >
 						</div>
 						<div class="input-block">
 							<label for="login-password">Password</label> <input
-								id="login-password" type="password" required>
+								id="login-password" name="passWord" type="password" >
 						</div>
 					</fieldset>
-					<button type="submit" class="btn-login"><a href="test" style="text-decoration: none">Login</a></button>
+					<p style="color: red">${errlogin}</p>
+					<button type="submit" class="btn-login">
+						Login
+					</button>
 				</form>
 			</div>
 			<div class="form-wrapper">
